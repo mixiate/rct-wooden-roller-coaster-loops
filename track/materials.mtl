@@ -1,0 +1,19 @@
+newmtl Remap1_Edge_NoAO
+Ns 7.5
+Kd 0.0 0.2 0.0
+Ks 1.0 1.0 1.0
+
+newmtl Remap2_DarkEdge_NoAO
+Ns 4.0
+Kd 0.3 0.0 0.0
+Ks 1.0 1.0 1.0
+map_Kd track/textures/wood_texture.png
+map_Ks track/textures/wood_specular.png
+
+newmtl Rails_Edge_NoAO
+Ns 10.0
+Kd 0.025 0.025 0.05
+Ks 1.0 1.0 1.0
+Ka 0.1 0.1 0.1
+map_Kd track/textures/metal_texture.png
+map_Ks track/textures/rails_specular.png
